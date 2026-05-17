@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRAGuard — EU Cyber Resilience Act (CRA) Compliance for WordPress</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#0B0F19',
+                        cardBg: '#161B26',
+                        accentBlue: '#38BDF8',
+                        accentRed: '#EF4444'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkBg text-slate-100 font-sans antialiased min-h-screen flex flex-col justify-between">
+
+    <header class="border-b border-slate-800/80 bg-darkBg/50 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-2xl">🛡️</span>
+                <span class="font-bold text-xl tracking-tight bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">CRAGuard</span>
+            </div>
+            <div class="text-sm font-medium text-slate-400 border border-slate-800 rounded-full px-3 py-1 bg-slate-900/50">
+                v1.0.0 Stable
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-20 flex-grow flex flex-col items-center justify-center text-center">
+        
+        <div class="inline-flex items-center space-x-2 bg-slate-900/80 border border-slate-800 rounded-full px-4 py-1.5 mb-8 animate-pulse text-xs md:text-sm">
+            <span class="w-2 h-2 rounded-full bg-accentBlue"></span>
+            <span class="text-slate-300 font-medium">EU Mandate Checklist Active</span>
+        </div>
+
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight max-w-3xl">
+            Automate Your <span class="bg-gradient-to-r from-accentBlue to-indigo-400 bg-clip-text text-transparent">EU CRA Compliance</span> Effortlessly
+        </h1>
+
+        <p class="text-lg text-slate-400 max-w-2xl mb-12 leading-relaxed">
+            CRAGuard is the essential B2B WordPress plugin for digital agencies and software vendors selling into the European market. Generate instant SBOMs, establish a secure VDP, and guarantee compliance before enforcement deadlines.
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-6 w-full max-w-3xl text-left mb-12">
+            <div class="bg-cardBg border border-slate-800/60 rounded-xl p-6 transition hover:border-slate-700/80">
+                <div class="text-xl mb-3">📋</div>
+                <h3 class="font-semibold text-slate-200 mb-1">Instant SBOM Generation</h3>
+                <p class="text-sm text-slate-400">Scan and compile your Software Bill of Materials dynamically to meet rigorous EU structural formatting logs.</p>
+            </div>
+            <div class="bg-cardBg border border-slate-800/60 rounded-xl p-6 transition hover:border-slate-700/80">
+                <div class="text-xl mb-3">🚨</div>
+                <h3 class="font-semibold text-slate-200 mb-1">24-Hour Critical Alarms</h3>
+                <p class="text-sm text-slate-400">Immediate automated pings to the administrator terminal when a critical vulnerability is flagged, helping you hit early ENISA deadlines.</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center gap-4">
+            <button class="w-full sm:w-auto bg-slate-100 hover:bg-slate-200 text-darkBg font-semibold px-8 py-3.5 rounded-lg transition-colors duration-200 shadow-lg shadow-white/5">
+                Pre-Order Premium License
+            </button>
+            <div class="text-xs text-slate-500 font-medium">
+                Official WordPress.org Review In Progress
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="border-t border-slate-900 bg-black/20 py-8 text-center text-xs text-slate-600">
+        <p>© 2026 CRAGuard Security. All rights reserved. Designed for legal alignment with EU framework structures.</p>
+    </footer>
+
+</body>
+</html>
